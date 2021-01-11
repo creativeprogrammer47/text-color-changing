@@ -1,0 +1,47 @@
+
+body{
+    height: 98vh;
+    width: 98vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #121212;
+}
+h1{
+    font-family: 'Raleway', sans-serif;
+    animation: colorchange 9s linear infinite alternate both;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+  @keyframes colorchange{
+    0% {
+      background-color:  #f79533;
+    }
+    15% {
+      background-color:  #f37055;
+    }
+    25% {
+      background-color: #ef4e7b;
+    }
+    35% {
+      background-color: #a166ab;
+    }
+    45% {
+      background-color: #5073b8;
+    }
+    55% {
+      background-color: #1098ad;
+    }
+    65% {
+      background-color:  #07b39b;
+    }
+    75% {
+      background-color:#6fba82;
+    }
+    85% {
+      background-color:#35b64a;
+    }
+    100% {
+      background-color:#ff8725;
+    }
+  }
